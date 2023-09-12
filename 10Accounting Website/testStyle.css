@@ -1,0 +1,40 @@
+
+body{
+    margin:0;
+}
+
+header{
+    text-align: center;
+    background: #f8f8f8;
+    padding: 2em 0;
+}
+
+
+/*==================
+Typograph
+==================*/ww
+
+
+
+/*NAVIGATION BAR*/
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    padding:0;
+    justify-content: center;
+    
+}
+
+
+nav li{
+    margin:0 1em;
+}
+
+nav a{
+
+}
+
+nav a:hover{
+    
+}

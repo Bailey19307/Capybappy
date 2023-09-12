@@ -1,0 +1,378 @@
+
+.content-container {
+    width:1487px;
+    display: flex;
+    flex-direction: column; /* Stack the items in a column */
+    position: relative; /* Add relative positioning */
+    z-index: 1;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+html, body, ul {
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .navBarTop {
+    height: 40px; /* Adjust the height of the top margin */
+    background-color: #0E2D70; /* Complementary color */
+    
+    z-index: 1; /* Ensure the .navBarTop stays behind the .nav-bar */
+  }
+
+  .nav-bar{
+    list-style-type: none;
+    height:75px;
+    overflow:hidden;
+    background-color:#e5eaef;
+    z-index: 2; /* Ensure the navigational bar stays on top */
+    box-shadow: 0 5px 3px rgba(0, 0, 0, 0.2);
+    /*make navigational bar sticky*/
+    top:0;
+}
+
+.nav-bar li{
+    float:right;
+}
+
+.nav-bar li a{
+margin-top:15px;
+margin-right:10px;
+font-family: 'Calibri';
+font-weight:bold;
+font-size:18px;
+  display:block;
+    color:#0E2D70;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover*/
+.nav-bar li a:hover{
+    background-color:#a9a9a9;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+
+.logoAndTitle{
+  align-items: center;
+  margin-left:25px;
+  height:95%;
+  width:35%;
+  display:grid;
+  grid-template-columns: 70px 500px;
+}
+
+.logo{
+  width: 90%;
+  height:90%;
+  padding:5px;
+}
+
+.logo img{
+  height:65px;
+  width:100%;
+  height:97%
+}
+
+.title{
+  margin-left:10px;
+  color:#0E2D70;
+}
+
+h1{
+  padding:0;
+  margin:0;
+  font-size:15x;
+  font-weight:bold;
+  font-family:'Calibri';
+}
+
+  .section {
+    height: 100vh; /* Each section will take up the full viewport height */
+    display: flex;
+    width:1487px;
+
+}
+
+.section1{
+    height:80vh; /*element will take up full height of viewport*/
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    background-color:#e5eaef;
+}
+
+.middleSec{
+  height: 560px;
+  background-color: white;
+  display:grid;
+  grid-template-columns: 594.8px 892.2px;
+
+}
+
+
+.mid-leftHalf {
+  background-color:rgb(246, 251, 255);
+  height: auto;
+  justify-content: center; /* Center the content horizontally */
+}
+
+  .mid-rightHalf{
+    background-color:#e5eaef;
+    .video-container {
+      background-color: pink;
+      height:100%;
+      width:100%;
+      display:inline-block;
+      position: relative;
+      overflow: hidden;
+    }
+    .video-overlay{
+      background-color: aqua;
+      position:absolute;
+      height:auto;
+      width:auto;
+      left:0px;
+      top:0px;
+
+    }
+  
+
+  }
+
+  .textContainer {
+    text-align: center; /* Center the text inside the container */
+  }
+
+
+.red-block{
+    width:100%;
+    height:100%;
+    background-color:#901A1A;
+}
+
+.textBox1{
+    display:inline-block;
+    text-align:center;
+    width:25%;
+    height:auto;
+    overflow:hidden;
+
+    margin-top:50px;
+    background-color:white;
+}
+
+.centeredText{
+    text-align: center;
+}
+
+.justifiedText{
+    text-align:justify;
+    margin:20px;
+    word-wrap:break-word;
+}
+
+
+
+.mid-leftHalf {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; /* Stack the items in a column */
+}
+
+.textContainer {
+  text-align:center;
+  max-width: 300px; /* Adjust the maximum width of the text container */
+}
+
+.button {
+  background-color: #0E2D70;
+  border-radius:3px;
+  border: none;
+  color: white;
+  width: 300px;
+  padding: 15px 32px;
+  font-family: 'Calibri';
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px; /* Add spacing between the text and button */
+}
+
+.lineUnderText {
+  width: 100px; /* Adjust the width of the line */
+  height: 5px; /* Adjust the height of the line */
+  background-color: #0E2D70; /* Adjust the color of the line */
+  margin-top: 10px; /* Adjust the distance between the header and the line */
+  margin-bottom: 20px; /* Adjust the distance between the line and the next content */
+}
+
+.thinLine{
+  background-color:lightgray;
+    height: 3px;
+    margin-top:-1px;
+    width: 100%; /* Use the full height of the parent container */
+    margin-right:auto;
+    margin-left:auto;
+}
+
+/*Section 2-------------------------------------*/
+
+.section2 {
+  background-color:#e5eaef;
+        display: flex;
+        height: 90vh;
+      }
+      
+      .leftPane {
+        width: 34%;
+        height: 100%;
+        border-right: 0px solid #111; /* Add a right border */
+      }
+
+      .textBox2{
+        margin-right:25%;
+        text-align:center;
+        margin-left:25%;
+        margin-top:50%;
+      }
+      .textBox3{
+        margin-right:15%;
+        margin-left:15%;
+        margin-top:90%;
+        word-wrap:break-word;
+
+      }
+      .image-container {
+        position:absolute;
+        border-radius:50%;
+        top:100px;
+        width:350px;
+        height: auto; /* 50% of the midPane's height */
+        box-shadow:0 10px 10px rgba(0, 0, 0, 0.2)
+      }
+      
+      .image1 {
+        border-radius:50%;
+        width:100%;
+        height:100%;
+      
+    }
+      
+      .midPane {
+        width: 30%;
+        height: 85%;
+        display:flex;
+        justify-content: center; /* Center the content horizontally */
+        border-left: 0px solid #111; /* Add a left border */
+        border-right: 0px solid #111; /* Add a right border */
+        position:relative;
+        border-radius:10px;
+        background-color:white;
+    }
+      
+      .rightPane {
+        width: 30%;
+        height: 85%;
+        display:flex;
+        justify-content: center; /* Center the content horizontally */
+        border-left: 0px solid #111; /* Add a left border */
+        border-right: 0px solid #111; /* Add a right border */
+        position:relative;
+        background-color:white;
+        border-radius: 10px;
+        margin-left:auto;
+        margin-right:auto;
+        box-shadow: 0 5px 10px black;
+
+      }
+
+/*Section 2-------------------------------------*/
+
+/*Section 3------------------------------------*/
+.section3 {
+    display: flex;
+    flex-direction: column;
+    margin-left:20px;
+    margin-right:20px;
+    background-color: #111;
+    height:100vh;
+}
+.header{
+  padding-top:50px;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:20%;
+  background-color:white;
+}
+.footer {
+  flex: 1;
+  display: flex; /* Change to flex container */
+  background-color: rgb(19, 14, 14);
+}
+
+.pane1,
+.pane2,
+.pane3,
+.pane4 {
+  flex: 1; /* Take up the full height of the .footer container */
+background-color: white;
+}
+
+.pane1 {
+}
+
+/* Accessing column 2 */
+.pane2 {
+}
+
+/* Accessing column 3 */
+.pane3 {
+}
+
+/* Accessing column 4 */
+.pane4 {
+}
+
+.image-container2 {
+  display:flex;
+  top:100px;
+  width:90px;
+  margin:auto;
+  margin-top:50px;
+  border-radius: 50%;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
+  width: 300px; /* Set the width of the container */
+  border: 10px solid #0E2D70; /* Optional: Add a border to the container */
+
+}
+
+.image2 {
+  object-fit: cover;
+  width: 100%;
+  height:300px;
+  border-radius:50%;
+}
+
+.text-below-image {
+  padding-top:30px;
+  text-align: center;
+  color: black;
+}
+
+/*Section 3------------------------------------*/
+
+.section4 {
+    background-color: #a9a9a9;
+}
